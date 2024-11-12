@@ -11,3 +11,19 @@
 body {
   @apply bg-gray-base;
 }
+span {
+  display: block;
+}
+
+@layer components {
+  .shadow::before {
+    @apply bg-green-400;
+    content: '';
+    opacity: .2;
+    z-index: -1;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    filter: blur(250px);
+  }
+}
