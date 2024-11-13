@@ -29,11 +29,23 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        shine: {
+          '0%': {
+            left: '-100px',
+          },
+          '20%': {
+            left: '100%',
+          },
+          '100%': {
+            left: '100%',
+          },
+        },
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
         fadeIn: 'fadeIn 1s ease-in-out',
-        fadeUp: 'fadeUp 1s ease-in-out'
+        fadeUp: 'fadeUp 1s ease-in-out',
+        shine: 'shine 5s 1s linear infinite',
       },
     },
   },
