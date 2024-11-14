@@ -1,6 +1,6 @@
 <template>
   <FnHeroSection />
-  <FnExperienceTable />
-  <FnTechStack />
-  
+  <FnExperienceTableSection />
+  <FnTechStackSection />
+  <!-- <FnProjectsSection /> -->
 </template>
