@@ -1,4 +1,4 @@
 <template>
   <FnHeroSection />
+  <FnExperienceTable />
 </template>
-

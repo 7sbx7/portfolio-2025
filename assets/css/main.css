@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply bg-gray-base;
+  @apply bg-gray-base text-gray-50;
 }
 
 span {

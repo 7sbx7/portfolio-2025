@@ -9,7 +9,7 @@ import type { LinkIcon } from '~/types/base';
 
 const linksSet = ref<Array<LinkIcon>>([
   { icon: ['fab', 'linkedin'], link: 'https://www.google.pl/' },
-  { icon: ['fab', 'github'], link: 'https://www.google.pl/' },
-  { icon: ['far', 'file-lines'], link: 'https://www.google.pl/' },
+  { icon: ['fab', 'github'], link: 'https://github.com/7sbx7' },
+  { icon: ['far', 'file-lines'], link: '/pdf/resume.pdf' },
 ]);
 </script>
