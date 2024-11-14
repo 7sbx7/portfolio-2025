@@ -2,7 +2,7 @@
   <section class="max-w-4xl mx-auto my-24 animate-fadeUp">
     <FnTabs @tab-change="handleTabChange" :opened-tab="openedTab" />
 
-    <div class="relative p-6 border rounded-lg border-gray-50 flex flex-col gap-8">
+    <div class="relative p-6 bg-gray-base shadow rounded-lg border-gray-50 flex flex-col gap-8">
       <FnExperienceTableItem v-for="(item, index) in openedTabData" :key="index" :item="item" />
     </div>
   </section>

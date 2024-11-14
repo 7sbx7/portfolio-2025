@@ -2,4 +2,5 @@
   <FnHeroSection />
   <FnExperienceTable />
   <FnTechStack />
+  
 </template>
