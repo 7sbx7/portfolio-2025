@@ -18,7 +18,7 @@ span {
 
 @layer components {
   .shadow::before {
-    @apply bg-green-400 opacity-20 z-[-1] absolute w-[800px] h-[400px] content-[''];
+    @apply bg-green-400 opacity-20 z-[-1] absolute w-[320px] lg:w-[800px] h-[400px] content-[''];
     filter: blur(250px);
   }
 
