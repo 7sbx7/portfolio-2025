@@ -10,7 +10,6 @@
 
 <script setup lang="ts">
 import type { experienceType } from '~/types/base';
-import { workExperience, education } from '~/utils/experience';
 
 const openedTab = ref<experienceType>('work');
 const handleTabChange = (type: experienceType) => {

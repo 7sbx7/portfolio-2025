@@ -1,4 +1,6 @@
-export const workExperience = [
+import type { experienceItem } from "~/types/base";
+
+export const workExperience: Array<experienceItem> = [
   {
     id: 1,
     company: 'ClearMedia',
@@ -29,7 +31,7 @@ export const workExperience = [
 ];
 
 
-export const education = [
+export const education: Array<experienceItem> = [
   {
     id: 1,
     company: 'Akademia Bialska',
